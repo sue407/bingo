@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "bingoBoard.h"
+
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+
+int get_number(void){
+}
 
 int main(int argc, char *argv[]) {
 	
@@ -17,7 +23,12 @@ int main(int argc, char *argv[]) {
 
     //GMAE
     
-int get_number(void)
+    bingo_init();
+    bingo_print();
+    bingo_inputNum(21);
+    bingo_print();
+	
+
     //initialize bingo boards
     /*
 	while(game is not end) 줄 수가 N음_BINGO보다 작
